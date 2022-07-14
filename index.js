@@ -201,8 +201,8 @@ export default class EmojiSelector extends Component {
 
   returnSectionData() {
     const { history, emojiList, searchQuery, category } = this.state;
-    let emojiData = (function() {
-        if (category === Categories.all && searchQuery === "") {
+    let emojiData = (function () {
+      if (category === Categories.all && searchQuery === "") {
         //TODO: OPTIMIZE THIS
         let largeList = [];
         categoryKeys.forEach(c => {
@@ -381,7 +381,7 @@ const styles = StyleSheet.create({
   searchbar_container: {
     width: "100%",
     zIndex: 1,
-    backgroundColor: "rgba(255,255,255,0.75)"
+    // backgroundColor: "rgba(255,255,255,0.75)"
   },
   search: {
     ...Platform.select({

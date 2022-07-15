@@ -1,6 +1,6 @@
 {
-  "name": "react-native-emoji-selector",
-  "version": "0.2.0",
+  "name": "@Alza-app/react-native-emoji-selector",
+  "version": "0.2.1",
   "description": "A react native emoji selector",
   "main": "index.js",
   "types": "./index.d.ts",
@@ -18,6 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arronhunt/react-native-emoji-selector.git"
+    "url": "ssh://git@github.com/Alza-app/react-native-emoji-selector.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }

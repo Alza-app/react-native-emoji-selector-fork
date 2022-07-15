@@ -1,4 +1,4 @@
-declare module "@Alza-app/react-native-emoji-selector" {
+declare module "react-native-emoji-selector" {
   import * as React from "react";
 
   /**
